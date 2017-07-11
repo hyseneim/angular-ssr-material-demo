@@ -1,0 +1,24 @@
+<div>
+  <a md-button routerLink="/">
+    <md-icon>home</md-icon>
+    <span>Home</span>
+  </a>
+  <a md-button routerLink="/tabs">
+    <md-icon>tab</md-icon>
+    <span>Tabs</span>
+  </a>
+  <a md-button routerLink="/table">
+    <md-icon>view_module</md-icon>
+    <span>Table</span>
+  </a>
+  <a md-button routerLink="/about">
+    <md-icon>perm_identity</md-icon>
+    <span>About</span>
+  </a>
+</div>
+<br>
+<md-card>
+  <md-card-content>
+    <router-outlet></router-outlet>
+  </md-card-content>
+</md-card>
